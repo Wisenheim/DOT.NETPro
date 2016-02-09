@@ -1,0 +1,419 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C974CA02-1C86-4A51-AE0E-1359DEA5CE51}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>amrani_foundation.My.MyApplication</StartupObject>
+    <RootNamespace>amrani_foundation</RootNamespace>
+    <AssemblyName>amrani_foundation</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\ABIKA\Desktop\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>amrani_foundation.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>amrani_foundation.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>1375650391_87420.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>C0547B832BBDF89C3B8AF06CB0C971B57C4738C0</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>amrani_foundation_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.ReportViewer.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Articles.Designer.vb">
+      <DependentUpon>Articles.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Articles.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Article_det.Designer.vb">
+      <DependentUpon>Article_det.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Article_det.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Categories.Designer.vb">
+      <DependentUpon>Categories.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Categories.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Connexion.Designer.vb">
+      <DependentUpon>Connexion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Connexion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cry_Detail_article.Designer.vb">
+      <DependentUpon>Cry_Detail_article.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Cry_Detail_article.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cry_Det_per.Designer.vb">
+      <DependentUpon>Cry_Det_per.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Cry_Det_per.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="C_detail.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>C_detail.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="C_Perso.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>C_Perso.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="deatail_P.Designer.vb">
+      <DependentUpon>deatail_P.vb</DependentUpon>
+    </Compile>
+    <Compile Include="deatail_P.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DETAILS.Designer.vb">
+      <DependentUpon>DETAILS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DETAILS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Filter_Crystal_Detail.Designer.vb">
+      <DependentUpon>Filter_Crystal_Detail.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Filter_Crystal_Detail.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Filtre_Det_Per.Designer.vb">
+      <DependentUpon>Filtre_Det_Per.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Filtre_Det_Per.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Liste_det.Designer.vb">
+      <DependentUpon>Liste_det.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Liste_det.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module1.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="PERSONELLES.Designer.vb">
+      <DependentUpon>PERSONELLES.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PERSONELLES.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_amra.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>_amra.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="_amra.vb">
+      <DependentUpon>_amra.dbml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Articles.resx">
+      <DependentUpon>Articles.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Article_det.resx">
+      <DependentUpon>Article_det.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Categories.resx">
+      <DependentUpon>Categories.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Connexion.resx">
+      <DependentUpon>Connexion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cry_Detail_article.resx">
+      <DependentUpon>Cry_Detail_article.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cry_Det_per.resx">
+      <DependentUpon>Cry_Det_per.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="C_detail.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>C_detail.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="C_Perso.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>C_Perso.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="deatail_P.resx">
+      <DependentUpon>deatail_P.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DETAILS.resx">
+      <DependentUpon>DETAILS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Filter_Crystal_Detail.resx">
+      <DependentUpon>Filter_Crystal_Detail.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Filtre_Det_Per.resx">
+      <DependentUpon>Filtre_Det_Per.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Liste_det.resx">
+      <DependentUpon>Liste_det.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PERSONELLES.resx">
+      <DependentUpon>PERSONELLES.vb</DependentUpon>
+    </EmbeddedResource>
+    <None Include="amrani_foundation_TemporaryKey.pfx" />
+    <None Include="App.config" />
+    <None Include="My Project\DataSources\ARTICLE1.datasource" />
+    <None Include="My Project\DataSources\CATEGORIE.datasource" />
+    <None Include="My Project\DataSources\DETAIL_perso.datasource" />
+    <None Include="My Project\DataSources\PERSONNEL.datasource" />
+    <None Include="_amra.dbml.layout">
+      <DependentUpon>_amra.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="_amra.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>_amra.designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\1369232184_netvibes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\1368041759_new.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\1369149826_user-home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\1369232217_DeleteRed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\1369232230_Modify.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\1367006511_dialog-close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\1368042487_file_add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\1368127483_administrator.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\1368041173_user-group-new.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\1368111692_Remove-Male-User.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\1369000261_folder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\971303_502965909772813_295088523_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\04-08-2013 11-43-33.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\1375633333_event-search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\1375634761_Engineer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\1375635738_List_bullets.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\1375637457_lists.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\1375648247_catalog.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\1370412747_shutdown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\1368110654_preferences-desktop-cryptography.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\1366992260_tick.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="1375650391_87420.ico" />
+    <None Include="resources\1367007187_001_39.png" />
+    <None Include="resources\1368022637_power_off.png" />
+    <None Include="resources\1368042813_gtk-refresh.png" />
+    <None Include="resources\1376542362_Print.png" />
+    <None Include="resources\1376542606_system-log-out.png" />
+    <None Include="resources\1376531173_personal_loan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 et x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,141 @@
+D:\DEVSCHOOLWORKS\stage gb al omrane\ARchives el omrane\Projet Al Omrane\Projet Al Omrane\bin\Debug\Projet Al Omrane.exe
+D:\DEVSCHOOLWORKS\stage gb al omrane\ARchives el omrane\Projet Al Omrane\Projet Al Omrane\bin\Debug\Projet Al Omrane.pdb
+D:\DEVSCHOOLWORKS\stage gb al omrane\ARchives el omrane\Projet Al Omrane\Projet Al Omrane\bin\Debug\Projet Al Omrane.xml
+D:\DEVSCHOOLWORKS\stage gb al omrane\ARchives el omrane\Projet Al Omrane\Projet Al Omrane\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\DEVSCHOOLWORKS\stage gb al omrane\ARchives el omrane\Projet Al Omrane\Projet Al Omrane\obj\x86\Debug\Projet_Al_Omrane.Connexion.resources
+D:\DEVSCHOOLWORKS\stage gb al omrane\ARchives el omrane\Projet Al Omrane\Projet Al Omrane\obj\x86\Debug\Projet_Al_Omrane.Form1.resources
+D:\DEVSCHOOLWORKS\stage gb al omrane\ARchives el omrane\Projet Al Omrane\Projet Al Omrane\obj\x86\Debug\Projet_Al_Omrane.Inscription.resources
+D:\DEVSCHOOLWORKS\stage gb al omrane\ARchives el omrane\Projet Al Omrane\Projet Al Omrane\obj\x86\Debug\Projet_Al_Omrane.Maj_Compte.resources
+D:\DEVSCHOOLWORKS\stage gb al omrane\ARchives el omrane\Projet Al Omrane\Projet Al Omrane\obj\x86\Debug\Projet_Al_Omrane.Maj_Dossier.resources
+D:\DEVSCHOOLWORKS\stage gb al omrane\ARchives el omrane\Projet Al Omrane\Projet Al Omrane\obj\x86\Debug\Projet_Al_Omrane.Resources.resources
+D:\DEVSCHOOLWORKS\stage gb al omrane\ARchives el omrane\Projet Al Omrane\Projet Al Omrane\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\DEVSCHOOLWORKS\stage gb al omrane\ARchives el omrane\Projet Al Omrane\Projet Al Omrane\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\DEVSCHOOLWORKS\stage gb al omrane\ARchives el omrane\Projet Al Omrane\Projet Al Omrane\obj\x86\Debug\Projet Al Omrane.exe
+D:\DEVSCHOOLWORKS\stage gb al omrane\ARchives el omrane\Projet Al Omrane\Projet Al Omrane\obj\x86\Debug\Projet Al Omrane.xml
+D:\DEVSCHOOLWORKS\stage gb al omrane\ARchives el omrane\Projet Al Omrane\Projet Al Omrane\obj\x86\Debug\Projet Al Omrane.pdb
+D:\DEVSCHOOLWORKS\stage gb al omrane\ARchives el omrane\Projet Al Omrane\Projet Al Omrane\obj\x86\Debug\Projet_Al_Omrane.archiver.resources
+D:\DEVSCHOOLWORKS\stage gb al omrane\ARchives el omrane\Projet Al Omrane\Projet Al Omrane\obj\x86\Debug\Projet_Al_Omrane.maj_salle.resources
+D:\DEVSCHOOLWORKS\stage gb al omrane\ARchives el omrane\Nuova cartella\Projet Al Omrane\Projet Al Omrane\obj\x86\Debug\Projet Al Omrane.exe
+D:\DEVSCHOOLWORKS\stage gb al omrane\ARchives el omrane\Nuova cartella\Projet Al Omrane\Projet Al Omrane\obj\x86\Debug\Projet Al Omrane.xml
+D:\DEVSCHOOLWORKS\stage gb al omrane\ARchives el omrane\Nuova cartella\Projet Al Omrane\Projet Al Omrane\obj\x86\Debug\Projet Al Omrane.pdb
+D:\DEVSCHOOLWORKS\stage gb al omrane\ARchives el omrane\Nuova cartella\Projet Al Omrane\Projet Al Omrane\bin\Debug\Projet Al Omrane.exe
+D:\DEVSCHOOLWORKS\stage gb al omrane\ARchives el omrane\Nuova cartella\Projet Al Omrane\Projet Al Omrane\bin\Debug\Projet Al Omrane.pdb
+D:\DEVSCHOOLWORKS\stage gb al omrane\ARchives el omrane\Nuova cartella\Projet Al Omrane\Projet Al Omrane\bin\Debug\Projet Al Omrane.xml
+D:\DEVSCHOOLWORKS\stage gb al omrane\ARchives el omrane\Nuova cartella\Projet Al Omrane\Projet Al Omrane\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\DEVSCHOOLWORKS\stage gb al omrane\ARchives el omrane\Nuova cartella\Projet Al Omrane\Projet Al Omrane\obj\x86\Debug\Projet_Al_Omrane.Connexion.resources
+D:\DEVSCHOOLWORKS\stage gb al omrane\ARchives el omrane\Nuova cartella\Projet Al Omrane\Projet Al Omrane\obj\x86\Debug\Projet_Al_Omrane.Form1.resources
+D:\DEVSCHOOLWORKS\stage gb al omrane\ARchives el omrane\Nuova cartella\Projet Al Omrane\Projet Al Omrane\obj\x86\Debug\Projet_Al_Omrane.Inscription.resources
+D:\DEVSCHOOLWORKS\stage gb al omrane\ARchives el omrane\Nuova cartella\Projet Al Omrane\Projet Al Omrane\obj\x86\Debug\Projet_Al_Omrane.Maj_Compte.resources
+D:\DEVSCHOOLWORKS\stage gb al omrane\ARchives el omrane\Nuova cartella\Projet Al Omrane\Projet Al Omrane\obj\x86\Debug\Projet_Al_Omrane.Maj_Dossier.resources
+D:\DEVSCHOOLWORKS\stage gb al omrane\ARchives el omrane\Nuova cartella\Projet Al Omrane\Projet Al Omrane\obj\x86\Debug\Projet_Al_Omrane.maj_salle.resources
+D:\DEVSCHOOLWORKS\stage gb al omrane\ARchives el omrane\Nuova cartella\Projet Al Omrane\Projet Al Omrane\obj\x86\Debug\Projet_Al_Omrane.Resources.resources
+D:\DEVSCHOOLWORKS\stage gb al omrane\ARchives el omrane\Nuova cartella\Projet Al Omrane\Projet Al Omrane\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\DEVSCHOOLWORKS\stage gb al omrane\ARchives el omrane\Nuova cartella\Projet Al Omrane\Projet Al Omrane\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\DEVSCHOOLWORKS\stage gb al omrane\ARchives el omrane\Nuova cartella\Projet Al Omrane\Projet Al Omrane\obj\x86\Debug\Projet_Al_Omrane.Consulter_dos.resources
+D:\DEVSCHOOLWORKS\stage gb al omrane\ARchives el omrane\Nuova cartella\Projet Al Omrane\Projet Al Omrane\obj\x86\Debug\Projet_Al_Omrane.suivi_dos.resources
+D:\DEVSCHOOLWORKS\stage gb al omrane\ARchives el omrane\Nuova cartella\Projet Al Omrane\Projet Al Omrane\obj\x86\Debug\Projet_Al_Omrane.historic.resources
+D:\DEVSCHOOLWORKS\stage gb al omrane\ARchives el omrane\Nuova cartella\Projet Al Omrane laster\Projet Al Omrane\obj\x86\Debug\Projet Al Omrane.exe
+D:\DEVSCHOOLWORKS\stage gb al omrane\ARchives el omrane\Nuova cartella\Projet Al Omrane laster\Projet Al Omrane\obj\x86\Debug\Projet Al Omrane.xml
+D:\DEVSCHOOLWORKS\stage gb al omrane\ARchives el omrane\Nuova cartella\Projet Al Omrane laster\Projet Al Omrane\obj\x86\Debug\Projet Al Omrane.pdb
+D:\DEVSCHOOLWORKS\stage gb al omrane\ARchives el omrane\Nuova cartella\Projet Al Omrane laster\Projet Al Omrane\bin\Debug\Projet Al Omrane.exe
+D:\DEVSCHOOLWORKS\stage gb al omrane\ARchives el omrane\Nuova cartella\Projet Al Omrane laster\Projet Al Omrane\bin\Debug\Projet Al Omrane.pdb
+D:\DEVSCHOOLWORKS\stage gb al omrane\ARchives el omrane\Nuova cartella\Projet Al Omrane laster\Projet Al Omrane\bin\Debug\Projet Al Omrane.xml
+D:\DEVSCHOOLWORKS\stage gb al omrane\ARchives el omrane\Nuova cartella\Projet Al Omrane laster\Projet Al Omrane\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\DEVSCHOOLWORKS\stage gb al omrane\ARchives el omrane\Nuova cartella\Projet Al Omrane laster\Projet Al Omrane\obj\x86\Debug\Projet_Al_Omrane.Connexion.resources
+D:\DEVSCHOOLWORKS\stage gb al omrane\ARchives el omrane\Nuova cartella\Projet Al Omrane laster\Projet Al Omrane\obj\x86\Debug\Projet_Al_Omrane.Consulter_dos.resources
+D:\DEVSCHOOLWORKS\stage gb al omrane\ARchives el omrane\Nuova cartella\Projet Al Omrane laster\Projet Al Omrane\obj\x86\Debug\Projet_Al_Omrane.Form1.resources
+D:\DEVSCHOOLWORKS\stage gb al omrane\ARchives el omrane\Nuova cartella\Projet Al Omrane laster\Projet Al Omrane\obj\x86\Debug\Projet_Al_Omrane.historic.resources
+D:\DEVSCHOOLWORKS\stage gb al omrane\ARchives el omrane\Nuova cartella\Projet Al Omrane laster\Projet Al Omrane\obj\x86\Debug\Projet_Al_Omrane.Inscription.resources
+D:\DEVSCHOOLWORKS\stage gb al omrane\ARchives el omrane\Nuova cartella\Projet Al Omrane laster\Projet Al Omrane\obj\x86\Debug\Projet_Al_Omrane.Maj_Dossier.resources
+D:\DEVSCHOOLWORKS\stage gb al omrane\ARchives el omrane\Nuova cartella\Projet Al Omrane laster\Projet Al Omrane\obj\x86\Debug\Projet_Al_Omrane.maj_salle.resources
+D:\DEVSCHOOLWORKS\stage gb al omrane\ARchives el omrane\Nuova cartella\Projet Al Omrane laster\Projet Al Omrane\obj\x86\Debug\Projet_Al_Omrane.Resources.resources
+D:\DEVSCHOOLWORKS\stage gb al omrane\ARchives el omrane\Nuova cartella\Projet Al Omrane laster\Projet Al Omrane\obj\x86\Debug\Projet_Al_Omrane.suivi_dos.resources
+D:\DEVSCHOOLWORKS\stage gb al omrane\ARchives el omrane\Nuova cartella\Projet Al Omrane laster\Projet Al Omrane\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\DEVSCHOOLWORKS\stage gb al omrane\ARchives el omrane\Nuova cartella\Projet Al Omrane laster\Projet Al Omrane\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\DEVSCHOOLWORKS\stage gb al omrane\ARchives el omrane\Nuova cartella\Projet Al Omrane laster\Projet Al Omrane\obj\x86\Debug\Projet_Al_Omrane.dgv_mvt.resources
+D:\DEVSCHOOLWORKS\stage gb al omrane\ARchives el omrane\Nuova cartella\Projet Al Omrane laster\Projet Al Omrane\obj\x86\Debug\Projet_Al_Omrane.frmTwainMain.resources
+D:\DEVSCHOOLWORKS\stage gb al omrane\ARchives el omrane\Nuova cartella\Projet Al Omrane laster\Projet Al Omrane\obj\x86\Debug\Projet_Al_Omrane.frmTwainPicture.resources
+D:\DEVSCHOOLWORKS\stage gb al omrane\ARchives el omrane\Nuova cartella\Projet Al Omrane laster\Projet Al Omrane\obj\x86\Debug\Projet_Al_Omrane.MAJ_Comptes.resources
+C:\Users\Tazi\Desktop\MOLTO IMPORTANTE 08-06-2013\08-06-2013- 20.42\Projet Al Omrane laster\Projet Al Omrane\obj\x86\Debug\Projet Al Omrane.exe
+C:\Users\Tazi\Desktop\MOLTO IMPORTANTE 08-06-2013\08-06-2013- 20.42\Projet Al Omrane laster\Projet Al Omrane\obj\x86\Debug\Projet Al Omrane.xml
+C:\Users\Tazi\Desktop\MOLTO IMPORTANTE 08-06-2013\08-06-2013- 20.42\Projet Al Omrane laster\Projet Al Omrane\obj\x86\Debug\Projet Al Omrane.pdb
+C:\Users\Tazi\Desktop\Importante\MOLTO IMPORTANTE 08-06-2013\08-06-2013- 20.42\Projet Al Omrane laster\Projet Al Omrane\bin\Debug\Archive Al Omrane.exe.manifest
+C:\Users\Tazi\Desktop\Importante\MOLTO IMPORTANTE 08-06-2013\08-06-2013- 20.42\Projet Al Omrane laster\Projet Al Omrane\bin\Debug\Archive Al Omrane.application
+C:\Users\Tazi\Desktop\Importante\MOLTO IMPORTANTE 08-06-2013\08-06-2013- 20.42\Projet Al Omrane laster\Projet Al Omrane\bin\Debug\Archive Al Omrane.exe
+C:\Users\Tazi\Desktop\Importante\MOLTO IMPORTANTE 08-06-2013\08-06-2013- 20.42\Projet Al Omrane laster\Projet Al Omrane\bin\Debug\Archive Al Omrane.pdb
+C:\Users\Tazi\Desktop\Importante\MOLTO IMPORTANTE 08-06-2013\08-06-2013- 20.42\Projet Al Omrane laster\Projet Al Omrane\bin\Debug\Archive Al Omrane.xml
+C:\Users\Tazi\Desktop\Importante\MOLTO IMPORTANTE 08-06-2013\08-06-2013- 20.42\Projet Al Omrane laster\Projet Al Omrane\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Tazi\Desktop\Importante\MOLTO IMPORTANTE 08-06-2013\08-06-2013- 20.42\Projet Al Omrane laster\Projet Al Omrane\obj\x86\Debug\Projet_Al_Omrane.Connexion.resources
+C:\Users\Tazi\Desktop\Importante\MOLTO IMPORTANTE 08-06-2013\08-06-2013- 20.42\Projet Al Omrane laster\Projet Al Omrane\obj\x86\Debug\Projet_Al_Omrane.Consulter_dos.resources
+C:\Users\Tazi\Desktop\Importante\MOLTO IMPORTANTE 08-06-2013\08-06-2013- 20.42\Projet Al Omrane laster\Projet Al Omrane\obj\x86\Debug\Projet_Al_Omrane.dgv_mvt.resources
+C:\Users\Tazi\Desktop\Importante\MOLTO IMPORTANTE 08-06-2013\08-06-2013- 20.42\Projet Al Omrane laster\Projet Al Omrane\obj\x86\Debug\Projet_Al_Omrane.Form1.resources
+C:\Users\Tazi\Desktop\Importante\MOLTO IMPORTANTE 08-06-2013\08-06-2013- 20.42\Projet Al Omrane laster\Projet Al Omrane\obj\x86\Debug\Projet_Al_Omrane.historic.resources
+C:\Users\Tazi\Desktop\Importante\MOLTO IMPORTANTE 08-06-2013\08-06-2013- 20.42\Projet Al Omrane laster\Projet Al Omrane\obj\x86\Debug\Projet_Al_Omrane.Inscription.resources
+C:\Users\Tazi\Desktop\Importante\MOLTO IMPORTANTE 08-06-2013\08-06-2013- 20.42\Projet Al Omrane laster\Projet Al Omrane\obj\x86\Debug\Projet_Al_Omrane.Maj_Dossier.resources
+C:\Users\Tazi\Desktop\Importante\MOLTO IMPORTANTE 08-06-2013\08-06-2013- 20.42\Projet Al Omrane laster\Projet Al Omrane\obj\x86\Debug\Projet_Al_Omrane.MAJ_Comptes.resources
+C:\Users\Tazi\Desktop\Importante\MOLTO IMPORTANTE 08-06-2013\08-06-2013- 20.42\Projet Al Omrane laster\Projet Al Omrane\obj\x86\Debug\Projet_Al_Omrane.maj_salle.resources
+C:\Users\Tazi\Desktop\Importante\MOLTO IMPORTANTE 08-06-2013\08-06-2013- 20.42\Projet Al Omrane laster\Projet Al Omrane\obj\x86\Debug\Projet_Al_Omrane.Maj_services.resources
+C:\Users\Tazi\Desktop\Importante\MOLTO IMPORTANTE 08-06-2013\08-06-2013- 20.42\Projet Al Omrane laster\Projet Al Omrane\obj\x86\Debug\Projet_Al_Omrane.Resources.resources
+C:\Users\Tazi\Desktop\Importante\MOLTO IMPORTANTE 08-06-2013\08-06-2013- 20.42\Projet Al Omrane laster\Projet Al Omrane\obj\x86\Debug\Projet_Al_Omrane.frmTwainMain.resources
+C:\Users\Tazi\Desktop\Importante\MOLTO IMPORTANTE 08-06-2013\08-06-2013- 20.42\Projet Al Omrane laster\Projet Al Omrane\obj\x86\Debug\Projet_Al_Omrane.frmTwainPicture.resources
+C:\Users\Tazi\Desktop\Importante\MOLTO IMPORTANTE 08-06-2013\08-06-2013- 20.42\Projet Al Omrane laster\Projet Al Omrane\obj\x86\Debug\Projet_Al_Omrane.suivi_dos.resources
+C:\Users\Tazi\Desktop\Importante\MOLTO IMPORTANTE 08-06-2013\08-06-2013- 20.42\Projet Al Omrane laster\Projet Al Omrane\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Tazi\Desktop\Importante\MOLTO IMPORTANTE 08-06-2013\08-06-2013- 20.42\Projet Al Omrane laster\Projet Al Omrane\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Tazi\Desktop\Importante\MOLTO IMPORTANTE 08-06-2013\08-06-2013- 20.42\Projet Al Omrane laster\Projet Al Omrane\obj\x86\Debug\Archive Al Omrane.exe.manifest
+C:\Users\Tazi\Desktop\Importante\MOLTO IMPORTANTE 08-06-2013\08-06-2013- 20.42\Projet Al Omrane laster\Projet Al Omrane\obj\x86\Debug\Archive Al Omrane.application
+C:\Users\Tazi\Desktop\Importante\MOLTO IMPORTANTE 08-06-2013\08-06-2013- 20.42\Projet Al Omrane laster\Projet Al Omrane\obj\x86\Debug\Archive Al Omrane.exe
+C:\Users\Tazi\Desktop\Importante\MOLTO IMPORTANTE 08-06-2013\08-06-2013- 20.42\Projet Al Omrane laster\Projet Al Omrane\obj\x86\Debug\Archive Al Omrane.xml
+C:\Users\Tazi\Desktop\Importante\MOLTO IMPORTANTE 08-06-2013\08-06-2013- 20.42\Projet Al Omrane laster\Projet Al Omrane\obj\x86\Debug\Archive Al Omrane.pdb
+E:\Hassan TAZI\MOLTO IMPORTANTE 08-06-2013\08-06-2013- 20.42\Projet Al Omrane laster\Projet Al Omrane\obj\x86\Debug\Projet_Al_Omrane.Connexion.resources
+E:\Hassan TAZI\MOLTO IMPORTANTE 08-06-2013\08-06-2013- 20.42\Projet Al Omrane laster\Projet Al Omrane\obj\x86\Debug\Projet_Al_Omrane.Consulter_dos.resources
+E:\Hassan TAZI\MOLTO IMPORTANTE 08-06-2013\08-06-2013- 20.42\Projet Al Omrane laster\Projet Al Omrane\obj\x86\Debug\Projet_Al_Omrane.dgv_mvt.resources
+E:\Hassan TAZI\MOLTO IMPORTANTE 08-06-2013\08-06-2013- 20.42\Projet Al Omrane laster\Projet Al Omrane\obj\x86\Debug\Projet_Al_Omrane.Form1.resources
+E:\Hassan TAZI\MOLTO IMPORTANTE 08-06-2013\08-06-2013- 20.42\Projet Al Omrane laster\Projet Al Omrane\obj\x86\Debug\Projet_Al_Omrane.historic.resources
+E:\Hassan TAZI\MOLTO IMPORTANTE 08-06-2013\08-06-2013- 20.42\Projet Al Omrane laster\Projet Al Omrane\obj\x86\Debug\Projet_Al_Omrane.Inscription.resources
+E:\Hassan TAZI\MOLTO IMPORTANTE 08-06-2013\08-06-2013- 20.42\Projet Al Omrane laster\Projet Al Omrane\obj\x86\Debug\Projet_Al_Omrane.Maj_Dossier.resources
+E:\Hassan TAZI\MOLTO IMPORTANTE 08-06-2013\08-06-2013- 20.42\Projet Al Omrane laster\Projet Al Omrane\obj\x86\Debug\Projet_Al_Omrane.MAJ_Comptes.resources
+E:\Hassan TAZI\MOLTO IMPORTANTE 08-06-2013\08-06-2013- 20.42\Projet Al Omrane laster\Projet Al Omrane\obj\x86\Debug\Projet_Al_Omrane.maj_salle.resources
+E:\Hassan TAZI\MOLTO IMPORTANTE 08-06-2013\08-06-2013- 20.42\Projet Al Omrane laster\Projet Al Omrane\obj\x86\Debug\Projet_Al_Omrane.Maj_services.resources
+E:\Hassan TAZI\MOLTO IMPORTANTE 08-06-2013\08-06-2013- 20.42\Projet Al Omrane laster\Projet Al Omrane\obj\x86\Debug\Projet_Al_Omrane.Resources.resources
+E:\Hassan TAZI\MOLTO IMPORTANTE 08-06-2013\08-06-2013- 20.42\Projet Al Omrane laster\Projet Al Omrane\obj\x86\Debug\Projet_Al_Omrane.frmTwainMain.resources
+E:\Hassan TAZI\MOLTO IMPORTANTE 08-06-2013\08-06-2013- 20.42\Projet Al Omrane laster\Projet Al Omrane\obj\x86\Debug\Projet_Al_Omrane.frmTwainPicture.resources
+E:\Hassan TAZI\MOLTO IMPORTANTE 08-06-2013\08-06-2013- 20.42\Projet Al Omrane laster\Projet Al Omrane\obj\x86\Debug\Projet_Al_Omrane.suivi_dos.resources
+E:\Hassan TAZI\MOLTO IMPORTANTE 08-06-2013\08-06-2013- 20.42\Projet Al Omrane laster\Projet Al Omrane\obj\x86\Debug\Projet Al Omrane.vbproj.GenerateResource.Cache
+E:\Hassan TAZI\MOLTO IMPORTANTE 08-06-2013\08-06-2013- 20.42\Projet Al Omrane laster\Projet Al Omrane\bin\Debug\Archive Al Omrane.exe.config
+E:\Hassan TAZI\MOLTO IMPORTANTE 08-06-2013\08-06-2013- 20.42\Projet Al Omrane laster\Projet Al Omrane\bin\Debug\Archive Al Omrane.exe.manifest
+E:\Hassan TAZI\MOLTO IMPORTANTE 08-06-2013\08-06-2013- 20.42\Projet Al Omrane laster\Projet Al Omrane\bin\Debug\Archive Al Omrane.application
+E:\Hassan TAZI\MOLTO IMPORTANTE 08-06-2013\08-06-2013- 20.42\Projet Al Omrane laster\Projet Al Omrane\bin\Debug\Archive Al Omrane.exe
+E:\Hassan TAZI\MOLTO IMPORTANTE 08-06-2013\08-06-2013- 20.42\Projet Al Omrane laster\Projet Al Omrane\bin\Debug\Archive Al Omrane.pdb
+E:\Hassan TAZI\MOLTO IMPORTANTE 08-06-2013\08-06-2013- 20.42\Projet Al Omrane laster\Projet Al Omrane\bin\Debug\Archive Al Omrane.xml
+E:\Hassan TAZI\MOLTO IMPORTANTE 08-06-2013\08-06-2013- 20.42\Projet Al Omrane laster\Projet Al Omrane\obj\x86\Debug\Archive Al Omrane.exe.manifest
+E:\Hassan TAZI\MOLTO IMPORTANTE 08-06-2013\08-06-2013- 20.42\Projet Al Omrane laster\Projet Al Omrane\obj\x86\Debug\Archive Al Omrane.application
+E:\Hassan TAZI\MOLTO IMPORTANTE 08-06-2013\08-06-2013- 20.42\Projet Al Omrane laster\Projet Al Omrane\obj\x86\Debug\Archive Al Omrane.exe
+E:\Hassan TAZI\MOLTO IMPORTANTE 08-06-2013\08-06-2013- 20.42\Projet Al Omrane laster\Projet Al Omrane\obj\x86\Debug\Archive Al Omrane.xml
+E:\Hassan TAZI\MOLTO IMPORTANTE 08-06-2013\08-06-2013- 20.42\Projet Al Omrane laster\Projet Al Omrane\obj\x86\Debug\Archive Al Omrane.pdb
+D:\My Projects\Projet Al Omrane laster\Projet Al Omrane laster\Projet Al Omrane\bin\Debug\Archive Al Omrane.exe.config
+D:\My Projects\Projet Al Omrane laster\Projet Al Omrane laster\Projet Al Omrane\obj\x86\Debug\Archive Al Omrane.exe
+D:\My Projects\Projet Al Omrane laster\Projet Al Omrane laster\Projet Al Omrane\obj\x86\Debug\Archive Al Omrane.xml
+D:\My Projects\Projet Al Omrane laster\Projet Al Omrane laster\Projet Al Omrane\obj\x86\Debug\Archive Al Omrane.pdb
+D:\My Projects\Projet Al Omrane laster\Projet Al Omrane laster\Projet Al Omrane\bin\Debug\Archive Al Omrane.exe.manifest
+D:\My Projects\Projet Al Omrane laster\Projet Al Omrane laster\Projet Al Omrane\bin\Debug\Archive Al Omrane.application
+D:\My Projects\Projet Al Omrane laster\Projet Al Omrane laster\Projet Al Omrane\bin\Debug\Archive Al Omrane.exe
+D:\My Projects\Projet Al Omrane laster\Projet Al Omrane laster\Projet Al Omrane\bin\Debug\Archive Al Omrane.pdb
+D:\My Projects\Projet Al Omrane laster\Projet Al Omrane laster\Projet Al Omrane\bin\Debug\Archive Al Omrane.xml
+D:\My Projects\Projet Al Omrane laster\Projet Al Omrane laster\Projet Al Omrane\obj\x86\Debug\Projet_Al_Omrane.Connexion.resources
+D:\My Projects\Projet Al Omrane laster\Projet Al Omrane laster\Projet Al Omrane\obj\x86\Debug\Projet_Al_Omrane.Consulter_dos.resources
+D:\My Projects\Projet Al Omrane laster\Projet Al Omrane laster\Projet Al Omrane\obj\x86\Debug\Projet_Al_Omrane.dgv_mvt.resources
+D:\My Projects\Projet Al Omrane laster\Projet Al Omrane laster\Projet Al Omrane\obj\x86\Debug\Projet_Al_Omrane.Form1.resources
+D:\My Projects\Projet Al Omrane laster\Projet Al Omrane laster\Projet Al Omrane\obj\x86\Debug\Projet_Al_Omrane.historic.resources
+D:\My Projects\Projet Al Omrane laster\Projet Al Omrane laster\Projet Al Omrane\obj\x86\Debug\Projet_Al_Omrane.Inscription.resources
+D:\My Projects\Projet Al Omrane laster\Projet Al Omrane laster\Projet Al Omrane\obj\x86\Debug\Projet_Al_Omrane.Maj_Dossier.resources
+D:\My Projects\Projet Al Omrane laster\Projet Al Omrane laster\Projet Al Omrane\obj\x86\Debug\Projet_Al_Omrane.MAJ_Comptes.resources
+D:\My Projects\Projet Al Omrane laster\Projet Al Omrane laster\Projet Al Omrane\obj\x86\Debug\Projet_Al_Omrane.maj_salle.resources
+D:\My Projects\Projet Al Omrane laster\Projet Al Omrane laster\Projet Al Omrane\obj\x86\Debug\Projet_Al_Omrane.Maj_services.resources
+D:\My Projects\Projet Al Omrane laster\Projet Al Omrane laster\Projet Al Omrane\obj\x86\Debug\Projet_Al_Omrane.Resources.resources
+D:\My Projects\Projet Al Omrane laster\Projet Al Omrane laster\Projet Al Omrane\obj\x86\Debug\Projet_Al_Omrane.frmTwainMain.resources
+D:\My Projects\Projet Al Omrane laster\Projet Al Omrane laster\Projet Al Omrane\obj\x86\Debug\Projet_Al_Omrane.frmTwainPicture.resources
+D:\My Projects\Projet Al Omrane laster\Projet Al Omrane laster\Projet Al Omrane\obj\x86\Debug\Projet_Al_Omrane.suivi_dos.resources
+D:\My Projects\Projet Al Omrane laster\Projet Al Omrane laster\Projet Al Omrane\obj\x86\Debug\Projet Al Omrane.vbproj.GenerateResource.Cache
+D:\My Projects\Projet Al Omrane laster\Projet Al Omrane laster\Projet Al Omrane\obj\x86\Debug\Archive Al Omrane.exe.manifest
+D:\My Projects\Projet Al Omrane laster\Projet Al Omrane laster\Projet Al Omrane\obj\x86\Debug\Archive Al Omrane.application
+D:\My Projects\Projet Al Omrane laster\Projet Al Omrane laster\Projet Al Omrane\obj\x86\Debug\Projet_Al_Omrane.frmTwainAbout.resources

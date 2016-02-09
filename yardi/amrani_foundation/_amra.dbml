@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="data_amrani" Class="_amraDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.\sqlexpress;Initial Catalog=data_amrani;Integrated Security=True" SettingsObjectName="amrani_foundation.My.MySettings" SettingsPropertyName="data_amraniConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.ARTICLE" Member="ARTICLE">
+    <Type Name="ARTICLE">
+      <Column Name="REF_ART" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="NOM_ART" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="DESIGNATION" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="FOURNISSEUR" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="UNITE" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="PRIX_UNIT" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="MODE_PAY" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="TVA" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Association Name="ARTICLE_DETAIL" Member="DETAILs" ThisKey="REF_ART" OtherKey="REF_ART" Type="DETAIL" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CATEGORIE" Member="CATEGORIE">
+    <Type Name="CATEGORIE">
+      <Column Name="ID_CAT" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="LIB_CATEG" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="CATEGORIE_PERSONNEL" Member="PERSONNEL" ThisKey="ID_CAT" OtherKey="ID_CATEG" Type="PERSONNEL" />
+    </Type>
+  </Table>
+  <Table Name="dbo.PERSONNEL" Member="PERSONNEL">
+    <Type Name="PERSONNEL">
+      <Column Name="CIN" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="NOM" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="PRENOM" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="TELEPHONE" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ADRESSE" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="SALAIRE" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="MODE_PAY" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ID_CATEG" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Code_cheque" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="PERSONNEL_DETAIL_perso" Member="DETAIL_persos" ThisKey="CIN" OtherKey="CIN" Type="DETAIL_perso" />
+      <Association Name="CATEGORIE_PERSONNEL" Member="CATEGORIE" ThisKey="ID_CATEG" OtherKey="ID_CAT" Type="CATEGORIE" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DETAIL_perso" Member="DETAIL_persos">
+    <Type Name="DETAIL_perso">
+      <Column Name="ID_DP" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CIN" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="DATE_PAY" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Association Name="PERSONNEL_DETAIL_perso" Member="PERSONNEL" ThisKey="CIN" OtherKey="CIN" Type="PERSONNEL" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.V_detail" Member="V_details">
+    <Type Name="V_detail">
+      <Column Name="ID_DET" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="REF_ART" Type="System.Int32" DbType="Int" CanBeNull="false" />
+      <Column Name="NOM_ART" Type="System.String" DbType="NVarChar(50)" CanBeNull="false" />
+      <Column Name="DESIGNATION" Type="System.String" DbType="NVarChar(50)" CanBeNull="false" />
+      <Column Name="FOURNISSEUR" Type="System.String" DbType="NVarChar(50)" CanBeNull="false" />
+      <Column Name="UNITEE" Type="System.String" DbType="NVarChar(50)" CanBeNull="false" />
+      <Column Name="PRIX_UNITAIRE" Type="System.Single" DbType="Real" CanBeNull="false" />
+      <Column Name="QUANTITE" Type="System.Int32" DbType="Int" CanBeNull="false" />
+      <Column Name="MODE_PAY" Type="System.String" DbType="NVarChar(50)" CanBeNull="false" />
+      <Column Name="TVA" Type="System.Single" DbType="Real" CanBeNull="false" />
+      <Column Name="DATE_DAQUISTATION" Type="System.DateTime" DbType="Date" CanBeNull="false" />
+      <Column Name="MONTANT_HT" Type="System.Single" DbType="Real" CanBeNull="false" />
+      <Column Name="MONTANT_TTC" Type="System.Single" DbType="Real" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.V_Per" Member="V_Pers">
+    <Type Name="V_Per">
+      <Column Name="CIN" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="NOM" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="PRENOM" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="DATE_PAY" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DETAIL" Member="DETAILs">
+    <Type Name="DETAIL">
+      <Column Name="ID_DET" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ID" Type="System.String" DbType="NVarChar(100) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="REF_ART" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="NOM_ART" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="DESIGNATION" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="FOURNISSEUR" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="UNITEE" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="PRIX_UNITAIRE" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="QUANTITE" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="MODE_PAY" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="TVA" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="DATE_DAQUISTATION" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="MONTANT_HT" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="MONTANT_TTC" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Association Name="ARTICLE_DETAIL" Member="ARTICLE" ThisKey="REF_ART" OtherKey="REF_ART" Type="ARTICLE" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

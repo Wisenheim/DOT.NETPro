@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="_amra">
+  <DataContextMoniker Name="/_amraDataContext" />
+  <nestedChildShapes>
+    <classShape Id="32f999a7-d436-4efd-ad6d-4b4e4385e9ee" absoluteBounds="0.75, 1.5, 2, 2.0822371419270831">
+      <DataClassMoniker Name="/_amraDataContext/ARTICLE" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6d79b9ba-ffa2-4c18-9dd2-026a9dae4fe9" absoluteBounds="0.765, 1.96, 1.9700000000000002, 1.5222371419270833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c8c1ad34-d585-4b83-8a28-57b2a3f8af4d" absoluteBounds="0.75, 6.5, 2, 1.0961531575520827">
+      <DataClassMoniker Name="/_amraDataContext/CATEGORIE" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d9e5a3d1-f6d0-4bb4-ae5c-1ea8321f0838" absoluteBounds="0.765, 6.96, 1.9700000000000002, 0.53615315755208326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="74df797e-b65d-4bb2-aad3-b35aebed0cab" absoluteBounds="5.625, 5.25, 2, 2.2465844726562496">
+      <DataClassMoniker Name="/_amraDataContext/PERSONNEL" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ff846462-272a-4bea-bc51-1ee4a2f5f62e" absoluteBounds="5.64, 5.71, 1.9700000000000002, 1.68658447265625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 7.09699625651042); (5.625 : 7.09699625651042)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/_amraDataContext/CATEGORIE/CATEGORIE_PERSONNEL" />
+      <nodes>
+        <classShapeMoniker Id="c8c1ad34-d585-4b83-8a28-57b2a3f8af4d" />
+        <classShapeMoniker Id="74df797e-b65d-4bb2-aad3-b35aebed0cab" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="85b7a86b-2316-4aab-93e5-f092d5ca2a3e" absoluteBounds="7.25, 1.125, 2, 1.26050048828125">
+      <DataClassMoniker Name="/_amraDataContext/DETAIL_perso" />
+      <nestedChildShapes>
+        <elementListCompartment Id="29bcf2ff-459e-4222-8f6c-aa2f401e2010" absoluteBounds="7.265, 1.585, 1.9700000000000002, 0.70050048828125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.96875 : 5.25); (5.96875 : 1.75525024414063); (7.25 : 1.75525024414063)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/_amraDataContext/PERSONNEL/PERSONNEL_DETAIL_perso" />
+      <nodes>
+        <classShapeMoniker Id="74df797e-b65d-4bb2-aad3-b35aebed0cab" />
+        <classShapeMoniker Id="85b7a86b-2316-4aab-93e5-f092d5ca2a3e" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="58a92b3d-a29e-4545-8ce6-f24d9fc2b283" absoluteBounds="8.5, 3.125, 2, 2.9039737955729166">
+      <DataClassMoniker Name="/_amraDataContext/V_detail" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f335e575-4142-4547-9d78-a5a28e2751aa" absoluteBounds="8.515, 3.585, 1.9700000000000002, 2.3439737955729165" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6ef6714c-0317-4019-b4cd-466dc71a3fa9" absoluteBounds="6.375, 3.25, 2, 1.4248478190104166">
+      <DataClassMoniker Name="/_amraDataContext/V_Per" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c1072b52-ca01-4b99-b331-3a8a5ed98582" absoluteBounds="6.39, 3.71, 1.9700000000000002, 0.86484781901041663" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8e70d5db-66c1-4ad7-8054-fadf92174b13" absoluteBounds="3.5, 1.5, 2, 3.0683211263020831">
+      <DataClassMoniker Name="/_amraDataContext/DETAIL" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4ba54dcc-1db0-4207-90fc-b238438eaaa4" absoluteBounds="3.515, 1.96, 1.9700000000000002, 2.508321126302083" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 2.54111857096354); (3.5 : 2.54111857096354)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/_amraDataContext/ARTICLE/ARTICLE_DETAIL" />
+      <nodes>
+        <classShapeMoniker Id="32f999a7-d436-4efd-ad6d-4b4e4385e9ee" />
+        <classShapeMoniker Id="8e70d5db-66c1-4ad7-8054-fadf92174b13" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

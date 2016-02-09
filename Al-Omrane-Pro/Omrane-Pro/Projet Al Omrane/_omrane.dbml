@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="projet_Gestion_archiveur" Class="_omraneDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.\SQLEXPRESS;Initial Catalog=projet_Gestion_archiveur;Integrated Security=True" SettingsObjectName="Projet_Al_Omrane.My.MySettings" SettingsPropertyName="projet_Gestion_archiveurConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Archiveur" Member="Archiveur">
+    <Type Name="Archiveur">
+      <Column Name="Code_Archiveur" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Nom_Archiveur" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="Mot_pass" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="code_salle" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="Salle_Archiveur" Member="Salle" ThisKey="Code_Archiveur" OtherKey="Code_Salle" Type="Salle" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Utilisateur" Member="Utilisateur">
+    <Type Name="Utilisateur">
+      <Column Name="Matricule" Type="System.String" DbType="NVarChar(20) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Nom_U" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="Prenom_U" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="Mot_pass" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="code_role" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="code_service" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="Utilisateur_Mvt_Dossier" Member="Mvt_Dossier" ThisKey="Matricule" OtherKey="matricule" Type="Mvt_Dossier" />
+      <Association Name="Roles_Utilisateur" Member="Roles" ThisKey="code_role" OtherKey="Code_Role" Type="Roles" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Dossier" Member="Dossier">
+    <Type Name="Dossier">
+      <Column Name="Code_Dossier" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Reference" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="exercice" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="Date_Depot" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Num_Ordre" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="adresse" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="code_service" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="etat_doss" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="Dossier_Mvt_Dossier" Member="Mvt_Dossier" ThisKey="Code_Dossier" OtherKey="code_dossier" Type="Mvt_Dossier" />
+      <Association Name="Emplacement_Dossier" Member="Emplacement" ThisKey="adresse" OtherKey="Adresse" Type="Emplacement" IsForeignKey="true" />
+      <Association Name="Service_Dossier" Member="Service" ThisKey="code_service" OtherKey="Code_Service" Type="Service" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Emplacement" Member="Emplacement">
+    <Type Name="Emplacement">
+      <Column Name="Code_emp" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Adresse" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Etat" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="code_salle" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="Emplacement_Dossier" Member="Dossier" ThisKey="Adresse" OtherKey="adresse" Type="Dossier" />
+      <Association Name="Salle_Emplacement" Member="Salle" ThisKey="code_salle" OtherKey="Code_Salle" Type="Salle" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Mvt_Dossier" Member="Mvt_Dossier">
+    <Type Name="Mvt_Dossier">
+      <Column Name="Code_Mvt" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Type_Mvt" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="code_dossier" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="matricule" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="code_type" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Date_entree" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Date_Sortie" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Association Name="Dossier_Mvt_Dossier" Member="Dossier" ThisKey="code_dossier" OtherKey="Code_Dossier" Type="Dossier" IsForeignKey="true" />
+      <Association Name="Utilisateur_Mvt_Dossier" Member="Utilisateur" ThisKey="matricule" OtherKey="Matricule" Type="Utilisateur" IsForeignKey="true" />
+      <Association Name="Type_Mouvement_Mvt_Dossier" Member="Type_Mouvement" ThisKey="code_type" OtherKey="Code_type" Type="Type_Mouvement" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Roles" Member="Roles">
+    <Type Name="Roles">
+      <Column Name="Code_Role" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Lib_Role" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Association Name="Roles_Utilisateur" Member="Utilisateur" ThisKey="Code_Role" OtherKey="code_role" Type="Utilisateur" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Salle" Member="Salle">
+    <Type Name="Salle">
+      <Column Name="Code_Salle" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Lib_salle" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Capacite" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="Salle_Archiveur" Member="Archiveur" ThisKey="Code_Salle" OtherKey="Code_Archiveur" Type="Archiveur" Cardinality="One" />
+      <Association Name="Salle_Emplacement" Member="Emplacement" ThisKey="Code_Salle" OtherKey="code_salle" Type="Emplacement" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Service" Member="Service">
+    <Type Name="Service">
+      <Column Name="Code_Service" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Nom_Service" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="Masque_Saisi" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="Service_Dossier" Member="Dossier" ThisKey="Code_Service" OtherKey="code_service" Type="Dossier" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Type_Mouvement" Member="Type_Mouvement">
+    <Type Name="Type_Mouvement">
+      <Column Name="Code_type" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Lib_Type" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Association Name="Type_Mouvement_Mvt_Dossier" Member="Mvt_Dossier" ThisKey="Code_type" OtherKey="code_type" Type="Mvt_Dossier" />
+    </Type>
+  </Table>
+</Database>

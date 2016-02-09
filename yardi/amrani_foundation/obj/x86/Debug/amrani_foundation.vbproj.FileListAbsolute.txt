@@ -1,0 +1,81 @@
+D:\ahmed amrani\amrani_foundation\amrani_foundation\bin\Debug\amrani_foundation.exe.config
+D:\ahmed amrani\amrani_foundation\amrani_foundation\bin\Debug\amrani_foundation.exe
+D:\ahmed amrani\amrani_foundation\amrani_foundation\bin\Debug\amrani_foundation.pdb
+D:\ahmed amrani\amrani_foundation\amrani_foundation\bin\Debug\amrani_foundation.xml
+D:\ahmed amrani\amrani_foundation\amrani_foundation\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\ahmed amrani\amrani_foundation\amrani_foundation\obj\x86\Debug\amrani_foundation.DETAILS.resources
+D:\ahmed amrani\amrani_foundation\amrani_foundation\obj\x86\Debug\amrani_foundation.Form1.resources
+D:\ahmed amrani\amrani_foundation\amrani_foundation\obj\x86\Debug\amrani_foundation.Resources.resources
+D:\ahmed amrani\amrani_foundation\amrani_foundation\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\ahmed amrani\amrani_foundation\amrani_foundation\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\ahmed amrani\amrani_foundation\amrani_foundation\obj\x86\Debug\amrani_foundation.exe
+D:\ahmed amrani\amrani_foundation\amrani_foundation\obj\x86\Debug\amrani_foundation.xml
+D:\ahmed amrani\amrani_foundation\amrani_foundation\obj\x86\Debug\amrani_foundation.pdb
+D:\ahmed amrani\amrani_foundation\amrani_foundation\obj\x86\Debug\amrani_foundation.Articles.resources
+D:\ahmed amrani\amrani_foundation\amrani_foundation\obj\x86\Debug\amrani_foundation.PERSONELLES.resources
+D:\ahmed amrani\amrani_foundation\amrani_foundation\obj\x86\Debug\amrani_foundation.Liste_det.resources
+D:\ahmed amrani\amrani_foundation\amrani_foundation\obj\x86\Debug\amrani_foundation.Categories.resources
+D:\ahmed amrani\amrani_foundation\amrani_foundation\obj\x86\Debug\amrani_foundation.Connexion.resources
+D:\ahmed amrani\amrani_foundation\amrani_foundation\bin\Debug\amrani_foundation.exe.manifest
+D:\ahmed amrani\amrani_foundation\amrani_foundation\bin\Debug\amrani_foundation.application
+D:\ahmed amrani\amrani_foundation\amrani_foundation\obj\x86\Debug\amrani_foundation.exe.manifest
+D:\ahmed amrani\amrani_foundation\amrani_foundation\obj\x86\Debug\amrani_foundation.application
+D:\ahmed amrani\amrani_foundation\amrani_foundation\obj\x86\Debug\amrani_foundation.Article_det.resources
+D:\ahmed amrani\amrani_foundation\amrani_foundation\obj\x86\Debug\amrani_foundation.deatail_P.resources
+D:\ahmed amrani\amrani_foundation\amrani_foundation\obj\x86\Debug\amrani_foundation.crys.resources
+C:\Users\PsyLogic\Desktop\yardi\amrani_foundation\bin\Debug\amrani_foundation.exe.config
+C:\Users\PsyLogic\Desktop\yardi\amrani_foundation\obj\x86\Debug\amrani_foundation.xml
+C:\Users\PsyLogic\Desktop\yardi\amrani_foundation\obj\x86\Debug\amrani_foundation.pdb
+C:\Users\PsyLogic\Desktop\yardi\amrani_foundation\bin\Debug\amrani_foundation.exe.manifest
+C:\Users\PsyLogic\Desktop\yardi\amrani_foundation\bin\Debug\amrani_foundation.application
+C:\Users\PsyLogic\Desktop\yardi\amrani_foundation\bin\Debug\amrani_foundation.exe
+C:\Users\PsyLogic\Desktop\yardi\amrani_foundation\bin\Debug\amrani_foundation.pdb
+C:\Users\PsyLogic\Desktop\yardi\amrani_foundation\bin\Debug\amrani_foundation.xml
+C:\Users\PsyLogic\Desktop\yardi\amrani_foundation\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\PsyLogic\Desktop\yardi\amrani_foundation\obj\x86\Debug\amrani_foundation.Articles.resources
+C:\Users\PsyLogic\Desktop\yardi\amrani_foundation\obj\x86\Debug\amrani_foundation.Article_det.resources
+C:\Users\PsyLogic\Desktop\yardi\amrani_foundation\obj\x86\Debug\amrani_foundation.Categories.resources
+C:\Users\PsyLogic\Desktop\yardi\amrani_foundation\obj\x86\Debug\amrani_foundation.Connexion.resources
+C:\Users\PsyLogic\Desktop\yardi\amrani_foundation\obj\x86\Debug\amrani_foundation.deatail_P.resources
+C:\Users\PsyLogic\Desktop\yardi\amrani_foundation\obj\x86\Debug\amrani_foundation.DETAILS.resources
+C:\Users\PsyLogic\Desktop\yardi\amrani_foundation\obj\x86\Debug\amrani_foundation.Form1.resources
+C:\Users\PsyLogic\Desktop\yardi\amrani_foundation\obj\x86\Debug\amrani_foundation.Liste_det.resources
+C:\Users\PsyLogic\Desktop\yardi\amrani_foundation\obj\x86\Debug\amrani_foundation.Resources.resources
+C:\Users\PsyLogic\Desktop\yardi\amrani_foundation\obj\x86\Debug\amrani_foundation.PERSONELLES.resources
+C:\Users\PsyLogic\Desktop\yardi\amrani_foundation\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\PsyLogic\Desktop\yardi\amrani_foundation\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\PsyLogic\Desktop\yardi\amrani_foundation\obj\x86\Debug\amrani_foundation.exe.manifest
+C:\Users\PsyLogic\Desktop\yardi\amrani_foundation\obj\x86\Debug\amrani_foundation.application
+C:\Users\PsyLogic\Desktop\yardi\amrani_foundation\obj\x86\Debug\amrani_foundation.exe
+C:\Users\PsyLogic\Desktop\yardi\amrani_foundation\obj\x86\Debug\amrani_foundation.Cry_Detail_article.resources
+C:\Users\PsyLogic\Desktop\yardi\amrani_foundation\obj\x86\Debug\amrani_foundation.Filter_Crystal_Detail.resources
+C:\Users\PsyLogic\Desktop\yardi\amrani_foundation\obj\x86\Debug\amrani_foundation.Cry_Det_per.resources
+C:\Users\PsyLogic\Desktop\yardi\amrani_foundation\obj\x86\Debug\amrani_foundation.Filtre_Det_Per.resources
+C:\Users\PsyLogic\Desktop\Stuff\yardi\amrani_foundation\bin\Debug\amrani_foundation.exe.config
+C:\Users\PsyLogic\Desktop\Stuff\yardi\amrani_foundation\obj\x86\Debug\amrani_foundation.exe
+C:\Users\PsyLogic\Desktop\Stuff\yardi\amrani_foundation\obj\x86\Debug\amrani_foundation.xml
+C:\Users\PsyLogic\Desktop\Stuff\yardi\amrani_foundation\obj\x86\Debug\amrani_foundation.pdb
+C:\Users\PsyLogic\Desktop\Stuff\yardi\amrani_foundation\bin\Debug\amrani_foundation.exe.manifest
+C:\Users\PsyLogic\Desktop\Stuff\yardi\amrani_foundation\bin\Debug\amrani_foundation.application
+C:\Users\PsyLogic\Desktop\Stuff\yardi\amrani_foundation\bin\Debug\amrani_foundation.exe
+C:\Users\PsyLogic\Desktop\Stuff\yardi\amrani_foundation\bin\Debug\amrani_foundation.pdb
+C:\Users\PsyLogic\Desktop\Stuff\yardi\amrani_foundation\bin\Debug\amrani_foundation.xml
+C:\Users\PsyLogic\Desktop\Stuff\yardi\amrani_foundation\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\PsyLogic\Desktop\Stuff\yardi\amrani_foundation\obj\x86\Debug\amrani_foundation.Articles.resources
+C:\Users\PsyLogic\Desktop\Stuff\yardi\amrani_foundation\obj\x86\Debug\amrani_foundation.Article_det.resources
+C:\Users\PsyLogic\Desktop\Stuff\yardi\amrani_foundation\obj\x86\Debug\amrani_foundation.Categories.resources
+C:\Users\PsyLogic\Desktop\Stuff\yardi\amrani_foundation\obj\x86\Debug\amrani_foundation.Connexion.resources
+C:\Users\PsyLogic\Desktop\Stuff\yardi\amrani_foundation\obj\x86\Debug\amrani_foundation.Cry_Detail_article.resources
+C:\Users\PsyLogic\Desktop\Stuff\yardi\amrani_foundation\obj\x86\Debug\amrani_foundation.Cry_Det_per.resources
+C:\Users\PsyLogic\Desktop\Stuff\yardi\amrani_foundation\obj\x86\Debug\amrani_foundation.deatail_P.resources
+C:\Users\PsyLogic\Desktop\Stuff\yardi\amrani_foundation\obj\x86\Debug\amrani_foundation.DETAILS.resources
+C:\Users\PsyLogic\Desktop\Stuff\yardi\amrani_foundation\obj\x86\Debug\amrani_foundation.Filter_Crystal_Detail.resources
+C:\Users\PsyLogic\Desktop\Stuff\yardi\amrani_foundation\obj\x86\Debug\amrani_foundation.Filtre_Det_Per.resources
+C:\Users\PsyLogic\Desktop\Stuff\yardi\amrani_foundation\obj\x86\Debug\amrani_foundation.Form1.resources
+C:\Users\PsyLogic\Desktop\Stuff\yardi\amrani_foundation\obj\x86\Debug\amrani_foundation.Liste_det.resources
+C:\Users\PsyLogic\Desktop\Stuff\yardi\amrani_foundation\obj\x86\Debug\amrani_foundation.Resources.resources
+C:\Users\PsyLogic\Desktop\Stuff\yardi\amrani_foundation\obj\x86\Debug\amrani_foundation.PERSONELLES.resources
+C:\Users\PsyLogic\Desktop\Stuff\yardi\amrani_foundation\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\PsyLogic\Desktop\Stuff\yardi\amrani_foundation\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\PsyLogic\Desktop\Stuff\yardi\amrani_foundation\obj\x86\Debug\amrani_foundation.exe.manifest
+C:\Users\PsyLogic\Desktop\Stuff\yardi\amrani_foundation\obj\x86\Debug\amrani_foundation.application

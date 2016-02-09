@@ -1,0 +1,449 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{818B3119-DE58-40D5-8FDF-229BBC2BE9CD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Projet_Al_Omrane.My.MyApplication</StartupObject>
+    <RootNamespace>Projet_Al_Omrane</RootNamespace>
+    <AssemblyName>Archive Al Omrane</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>E:\Nuova cartella\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Background</UpdateMode>
+    <UpdateInterval>1</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>true</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ProductName>archive Al Omrane</ProductName>
+    <PublisherName>Hassan tazi</PublisherName>
+    <MinimumRequiredVersion>1.0.0.0</MinimumRequiredVersion>
+    <ApplicationRevision>101</ApplicationRevision>
+    <ApplicationVersion>10.10.10.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Archive Al Omrane.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Archive Al Omrane.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>BFA589ABF1B2DA79F87C786D6988DD60B637C055</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Projet Al Omrane_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Connexion.Designer.vb">
+      <DependentUpon>Connexion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Connexion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consulter_dos.Designer.vb">
+      <DependentUpon>Consulter_dos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Consulter_dos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dgv_mvt.Designer.vb">
+      <DependentUpon>dgv_mvt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dgv_mvt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="historic.Designer.vb">
+      <DependentUpon>historic.vb</DependentUpon>
+    </Compile>
+    <Compile Include="historic.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inscription.Designer.vb">
+      <DependentUpon>Inscription.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Inscription.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Maj-Dossier.Designer.vb">
+      <DependentUpon>Maj-Dossier.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Maj-Dossier.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MAJ_Comptes.Designer.vb">
+      <DependentUpon>MAJ_Comptes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MAJ_Comptes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maj_salle.Designer.vb">
+      <DependentUpon>maj_salle.vb</DependentUpon>
+    </Compile>
+    <Compile Include="maj_salle.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Maj_services.Designer.vb">
+      <DependentUpon>Maj_services.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Maj_services.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="scanner\cGDIPlus.vb" />
+    <Compile Include="scanner\cPDF.vb" />
+    <Compile Include="scanner\cTwainDefs.vb" />
+    <Compile Include="scanner\cTwainLib.vb" />
+    <Compile Include="scanner\frmTwainAbout.Designer.vb">
+      <DependentUpon>frmTwainAbout.vb</DependentUpon>
+    </Compile>
+    <Compile Include="scanner\frmTwainAbout.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="scanner\frmTwainMain.Designer.vb">
+      <DependentUpon>frmTwainMain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="scanner\frmTwainMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="scanner\frmTwainPicture.Designer.vb">
+      <DependentUpon>frmTwainPicture.vb</DependentUpon>
+    </Compile>
+    <Compile Include="scanner\frmTwainPicture.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="suivi_dos.Designer.vb">
+      <DependentUpon>suivi_dos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="suivi_dos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Utilitaires.vb" />
+    <Compile Include="_archive.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>_archive.dbml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Connexion.resx">
+      <DependentUpon>Connexion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consulter_dos.resx">
+      <DependentUpon>Consulter_dos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dgv_mvt.resx">
+      <DependentUpon>dgv_mvt.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <None Include="_archive.dbml.layout">
+      <DependentUpon>_archive.dbml</DependentUpon>
+    </None>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <EmbeddedResource Include="historic.resx">
+      <DependentUpon>historic.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inscription.resx">
+      <DependentUpon>Inscription.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Maj-Dossier.resx">
+      <DependentUpon>Maj-Dossier.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MAJ_Comptes.resx">
+      <DependentUpon>MAJ_Comptes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maj_salle.resx">
+      <DependentUpon>maj_salle.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Maj_services.resx">
+      <DependentUpon>Maj_services.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="scanner\frmTwainAbout.resx">
+      <DependentUpon>frmTwainAbout.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="scanner\frmTwainMain.resx">
+      <DependentUpon>frmTwainMain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="scanner\frmTwainPicture.resx">
+      <DependentUpon>frmTwainPicture.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="suivi_dos.resx">
+      <DependentUpon>suivi_dos.vb</DependentUpon>
+    </EmbeddedResource>
+    <None Include="My Project\DataSources\Archiveur.datasource" />
+    <None Include="My Project\DataSources\Emplacement.datasource" />
+    <None Include="My Project\DataSources\Mvt_Dossier.datasource" />
+    <None Include="My Project\DataSources\Salle.datasource" />
+    <None Include="My Project\DataSources\Type_Mouvement.datasource" />
+    <None Include="My Project\DataSources\Utilisateur.datasource" />
+    <None Include="Projet Al Omrane_TemporaryKey.pfx" />
+    <None Include="My Project\DataSources\Dossier.datasource" />
+    <None Include="My Project\DataSources\Roles.datasource" />
+    <None Include="My Project\DataSources\Service.datasource" />
+    <None Include="_archive.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>_archive.designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1366992260_tick.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1367006511_dialog-close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\al_omrane.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1366992260_tick1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1367007187_001_39.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1368041173_user-group-new.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1368041759_new.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1368042487_file_add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1368042813_gtk-refresh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1368042946_delete-file.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1368042624_file_search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1368110654_preferences-desktop-cryptography.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1368112262_docx_mac.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1368112292_client_account_template.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1368127483_administrator.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1368129121_administrator.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1369000261_folder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1369000376_stock_folder-move.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1369149826_user-home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1369230685_archive.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1369230878_document-preview-archive.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1369232529_new-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1369232184_netvibes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1369232230_Modify.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1369232217_DeleteRed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1370412243_archive-tar-gz.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1370412451_teacher.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1370412747_shutdown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\omrane.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grande-icone_historique.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\alomrane_logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1370566573_224230-graphics-viewer-document.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1215800286fEkM9vq.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1370568679_go-back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1370575587_scanner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1368022637_power_off.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\service.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 et x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 et x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
